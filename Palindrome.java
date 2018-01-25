@@ -8,8 +8,8 @@ import java.util.LinkedList;
 public class Palindrome <G> {
 	
 	public boolean checkPalindrome(LinkedList<G> list) {
-		Iterator back = list.descendingIterator();
-		Iterator front = list.iterator();
+		Iterator<G> back = list.descendingIterator();
+		Iterator<G> front = list.iterator();
 		
 		for (int i = 0; i < list.size()/2; i++) {
 			if (!back.next().equals(front.next()))
