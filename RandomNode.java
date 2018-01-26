@@ -3,10 +3,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /*
- * Implement a binary tree class from scratch which, in addition to
- * insert, find, and delete, has a method getRandomNode() which returns
- * a random node from the tree. All nodes should be equally likely to 
- * be chosen.
+ * Implement a binary tree class from scratch which has a method 
+ * getRandomNode() which returns a random node from the tree. 
+ * All nodes should be equally likely to be chosen.
  */
 public class RandomNode {
     
